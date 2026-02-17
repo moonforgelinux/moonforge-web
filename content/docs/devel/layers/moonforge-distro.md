@@ -5,7 +5,7 @@ type: docs
 
 This layer covers *everything* that should be common to all the OS images built out of this distro layer.
 
-## What is does
+## What it does
 
 * Builds a new distribution on top of a LTS openembedded-core release.
 * Provides a composable image with features enabled (e.g., read-only-rootfs, overlayfs-etc, etc).
