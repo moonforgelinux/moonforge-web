@@ -10,26 +10,21 @@ Fedora:
 $ sudo dnf install hugo npm
 ```
 
+Node.js:
+
+```sh
+$ npm install autoprefixer postcss postcss-cli
+```
+
 #### Clone
 
 ```sh
-$ git clone --recurse-submodules https://github.com/moonforgelinux/moonforge-web.git
-```
-
-Or:
-
-```sh
-$ git clone https://github.com/moonforgelinux/moonforge-web.git
-$ cd moonforge-web
-$ git submodule update --init
+$ git clone https://github.com/moonforgelinux/moonforgelinux.github.io.git
 ```
 
 #### Initialize
 
 ```sh
-$ cd moonforge-web
-$ cd themes/docsy
-$ npm install
-$ cd ../..
+$ cd moonforgelinux.github.io
 $ hugo serve
 ```

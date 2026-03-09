@@ -1,4 +1,4 @@
-baseURL = 'https://www.moonforgelinux.com'
+baseURL = 'https://www.moonforgelinux.org'
 languageCode = 'en-us'
 title = 'Moonforge'
 
@@ -49,7 +49,7 @@ section = ["HTML", "RSS"]
 archived_version = false
 url_latest_version = "https://www.moonforgelinux.com"
 github_project_repo = "https://github.com/moonforgelinux/"
-github_repo = "https://github.com/moonforgelinux/moonforge-web"
+github_repo = "https://github.com/moonforgelinux/moonforgelinux.github.io"
 github_branch = "main"
 
 [params.copyright]
@@ -82,7 +82,7 @@ showLightDarkModeMenu = true
   desc = "The Moonforge project repository"
 [[params.links.developer]]
   name = "Website repository"
-  url = "https://github.com/moonforgelinux/moonforge-web"
+  url = "https://github.com/moonforgelinux/moonforge.github.io"
   icon = "fa-brands fa-github"
   desc = "The Moonforge website repository"
 #[[params.links.developer]]

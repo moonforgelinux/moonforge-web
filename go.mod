@@ -1,4 +1,4 @@
-module github.com/moonforgelinux/moonforge-web
+module github.com/moonforgelinux/moonforgelinux.github.io
 
 go 1.18
 
