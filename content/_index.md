@@ -14,7 +14,7 @@ outputs:
 
 {{< blocks/cover image_anchor="top" height="full" >}}
 
-![Moonforge](/img/logos/logo-horizontal-color-dark.svg)
+![Moonforge](img/logos/logo-horizontal-color-dark.svg)
 {.moonforge-logo}
 
 <a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
