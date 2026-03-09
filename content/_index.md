@@ -17,10 +17,10 @@ outputs:
 ![Moonforge](img/logos/logo-horizontal-color-dark.svg)
 {.moonforge-logo}
 
-<a class="btn btn-lg btn-primary me-3 mb-4" href="/docs/">
+<a class="btn btn-lg btn-primary me-3 mb-4" href="docs/">
   Learn more <i class="fas fa-arrow-alt-circle-right ms-2"></i>
 </a>
-<a class="btn btn-lg btn-secondary me-3 mb-4" href="/goals/">
+<a class="btn btn-lg btn-secondary me-3 mb-4" href="goals/">
   Goals <i class="fas ms-2"></i>
 </a>
 <a class="btn btn-lg btn-secondary me-3 mb-4" href="https://github.com/moonforgelinux">
