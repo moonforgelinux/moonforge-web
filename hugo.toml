@@ -47,12 +47,12 @@ from_year = 2026
 to_year = "present"
 
 [permalinks]
-blog = "/:section/:year/:month/:day/:slug/"
+blog = "/:section/:year/:contentbasename/"
 
 [params.ui]
 breadcrumb_disable = false
-navbar_logo = false
-navbar_translucent_over_cover_disable = false
+navbar_logo = true
+navbar_translucent_over_cover_disable = true
 sidebar_menu_compact = false
 sidebar_search_disable = false
 showLightDarkModeMenu = true

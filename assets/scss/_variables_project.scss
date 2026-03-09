@@ -1,2 +1,19 @@
-$secondary: #B990ED; // Wisteria
-$primary: #8B47A8; // Indigo velvet
+$moonforge_colors: (
+  "wisteria": rgb(183, 153, 235),
+  "indigo-velvet": rgb(76, 29, 149),
+  "sky-aqua": rgb(76, 29, 149),
+  "ink-black": rgb(2, 6, 23),
+);
+
+$secondary: map-get($moonforge_colors, "wisteria");
+$primary: map-get($moonforge_colors, "indigo-velvet");
+
+$td-navbar-bg-color: shade-color($primary, 22%); // Should match $primary-darker
+$navbar-light-active-color: $secondary;
+$navbar-dark-active-color: $secondary;
+
+// Link hover: use secondary as color base
+$link-hover-color: darken($secondary, 20%);
+$link-hover-color-dark: $secondary;
+$navbar-light-hover-color: $secondary;
+$navbar-dark-hover-color: $secondary;
