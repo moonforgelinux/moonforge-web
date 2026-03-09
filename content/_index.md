@@ -41,13 +41,13 @@ Moonforge gives you the best developer experience for creating your own image-ba
 
 {{% blocks/feature icon="fa-lightbulb" title="Build your own OS" %}}
 
-Combine Yocto layers for features, architectures, and targets.
+Combine various layers for features, architectures, and targets.
 
 {{% /blocks/feature %}}
 
 {{% blocks/feature icon="fa-brands fa-linux" title="Made for Yocto" %}}
 
-Rely on industry standards, like Yocto.
+Rely on industry standards, like [Yocto](https://www.yoctoproject.org/).
 
 {{% /blocks/feature %}}
 
@@ -61,7 +61,7 @@ Add more features and hardware platforms on GitHub.
 
 {{% blocks/section type="row text-center" title="Goals" %}}
 
-Moonforge is built on the Yocto and OpenEmbedded projects. As such, it's a collection of Yocto layers and auxiliary configuration files that allow you to create immutable, maintainable, and easily updatable operating system images.
+Moonforge is built on the [Yocto](https://www.yoctoproject.org/) and [OpenEmbedded](https://www.openembedded.org/wiki/Main_Page) projects. As such, it's a collection of Yocto layers and auxiliary configuration files that allow you to create immutable, maintainable, and easily updatable operating system images.
 
 {{% /blocks/section %}}
 
