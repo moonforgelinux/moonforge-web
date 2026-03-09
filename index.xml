@@ -50,7 +50,7 @@ for Moonforge.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">16&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">includes&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">kas/include/layer/meta-moonforge-graphics.yml&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>meta-moonforge-podman</title><link>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-podman/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-podman/</guid><description>&lt;p>This layer adds and configures Podman to be able to run containers.&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>See: &lt;a href="https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-graphics.yml">meta-moonforge-graphics&lt;/a>&lt;/p></description></item><item><title>meta-moonforge-podman</title><link>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-podman/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-podman/</guid><description>&lt;p>This layer adds and configures Podman to be able to run containers.&lt;/p>
 &lt;h2 id="what-it-does">What it does&lt;/h2>
 &lt;ul>
 &lt;li>Provides recipes bbappend overrides to configure Podman storage (e.g., to store images on the persistent partition).&lt;/li>
@@ -62,7 +62,7 @@ for Moonforge.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">16&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">includes&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">kas/include/layer/meta-moonforge-podman.yml&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>meta-moonforge-qemu</title><link>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-qemu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-qemu/</guid><description>&lt;p>This layer provides auxiliary assets for QEMU builds.&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>See: &lt;a href="https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-podman.yml">meta-moonforge-podman&lt;/a>&lt;/p></description></item><item><title>meta-moonforge-qemu</title><link>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-qemu/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-qemu/</guid><description>&lt;p>This layer provides auxiliary assets for QEMU builds.&lt;/p>
 &lt;h2 id="what-is-does">What is does&lt;/h2>
 &lt;ul>
 &lt;li>Extends the base image with recipes, distro and local configurations to build images for qemux86-64.&lt;/li>
@@ -79,7 +79,8 @@ for Moonforge.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> WKS_FILE = &amp;#34;moonforge-image-base-qemux86-64.wks.in&amp;#34;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">machine&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">qemux86-64&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="testing">Testing&lt;/h2>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>See: &lt;a href="https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-qemu.yml">meta-moonforge-qemu&lt;/a>&lt;/p>
+&lt;h2 id="testing">Testing&lt;/h2>
 &lt;p>To use &lt;code>runqemu&lt;/code>:&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">$ &lt;span class="nb">cd&lt;/span> meta-moonforge
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">$ kas-container --runtime-args &lt;span class="s2">&amp;#34;--device=/dev/kvm&amp;#34;&lt;/span> shell kas/moonforge-image-base-qemux86-64.yml:kas/common/debug.yml
@@ -103,7 +104,8 @@ for Moonforge.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> WKS_FILE = &amp;#34;moonforge-image-base-raspberrypi.wks.in&amp;#34;&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">machine&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">raspberrypi5&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="testing">Testing&lt;/h2>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>See: &lt;a href="https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-raspberrypi.yml">meta-moonforge-raspberrypi&lt;/a>&lt;/p>
+&lt;h2 id="testing">Testing&lt;/h2>
 &lt;p>The built image can be flashed with &lt;code>bmaptool&lt;/code>:&lt;/p></description></item><item><title>meta-moonforge-rauc</title><link>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-rauc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-rauc/</guid><description>&lt;p>This layer adds RAUC support to manage OS updates.&lt;/p>
 &lt;h2 id="what-it-does">What it does&lt;/h2>
 &lt;ul>
@@ -129,7 +131,7 @@ for Moonforge.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">40_meta-moonforge-rauc-update&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">|&lt;/span>&lt;span class="sd">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> RAUC_BUNDLE_URL = &amp;#34;http://10.0.2.2:3333/LATEST.raucb&amp;#34;
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> RAUC_FORCE_REBOOT_ON_UPDATE = &amp;#34;1&amp;#34;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Note &lt;code>RAUC_FORCE_REBOOT_ON_UPDATE&lt;/code> will force a system reboot, therefore running applications must have inhibitors in place to handle this scenario.&lt;/p></description></item><item><title>meta-moonforge-wpe</title><link>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-wpe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-wpe/</guid><description>&lt;p>This layer adds WPE Webkit to display a given URL in a kiosk-like setting.&lt;/p>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Note&lt;/strong>: &lt;code>RAUC_FORCE_REBOOT_ON_UPDATE&lt;/code> will force a system reboot, therefore running applications must have inhibitors in place to handle this scenario.&lt;/p></description></item><item><title>meta-moonforge-wpe</title><link>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-wpe/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moonforgelinux.github.io/moonforge-web/docs/layers/moonforge-wpe/</guid><description>&lt;p>This layer adds WPE Webkit to display a given URL in a kiosk-like setting.&lt;/p>
 &lt;h2 id="what-it-does">What it does&lt;/h2>
 &lt;ul>
 &lt;li>Extends the minimal base image with the WPE related recipes.&lt;/li>
@@ -145,4 +147,4 @@ for Moonforge.&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">local_conf_header&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">30_meta-moonforge-wpe&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">|&lt;/span>&lt;span class="sd">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> WAYLAND_COG_LAUNCH_URL = &amp;#34;https://www.igalia.com&amp;#34;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Note that a different URL can be provided by overriding the &lt;code>WAYLAND_COG_LAUNCH_URL&lt;/code> variable.&lt;/p></description></item><item><title>Search Results</title><link>https://moonforgelinux.github.io/moonforge-web/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moonforgelinux.github.io/moonforge-web/search/</guid><description/></item></channel></rss>
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;strong>Note&lt;/strong>: a different URL can be provided by overriding the &lt;code>WAYLAND_COG_LAUNCH_URL&lt;/code> variable.&lt;/p></description></item><item><title>Search Results</title><link>https://moonforgelinux.github.io/moonforge-web/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://moonforgelinux.github.io/moonforge-web/search/</guid><description/></item></channel></rss>
