@@ -47,7 +47,7 @@ Combine Yocto layers for features, architectures, and targets.
 
 {{% blocks/feature icon="fa-brands fa-linux" title="Made for Yocto" %}}
 
-Rely on industry standards, like Yocto Linux.
+Rely on industry standards, like Yocto.
 
 {{% /blocks/feature %}}
 
