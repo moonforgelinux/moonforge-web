@@ -20,3 +20,5 @@ header:
   includes:
     - kas/include/layer/meta-moonforge-graphics.yml
 ```
+
+See: [meta-moonforge-graphics](https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-graphics.yml)

@@ -40,3 +40,5 @@ services:
 EOF
 $ docker compose up
 ```
+
+See: [meta-moonforge-docker](https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-docker.yml)

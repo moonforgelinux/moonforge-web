@@ -25,4 +25,6 @@ local_conf_header:
     WAYLAND_COG_LAUNCH_URL = "https://www.igalia.com"
 ```
 
-Note that a different URL can be provided by overriding the `WAYLAND_COG_LAUNCH_URL` variable.
+**Note**: a different URL can be provided by overriding the `WAYLAND_COG_LAUNCH_URL` variable.
+
+See: [meta-moonforge-wpe](https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-wpe.yml)

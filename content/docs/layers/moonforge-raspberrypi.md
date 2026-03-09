@@ -25,6 +25,8 @@ local_conf_header:
 machine: raspberrypi5
 ```
 
+See: [meta-moonforge-raspberrypi](https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-raspberrypi.yml)
+
 ## Testing
 
 The built image can be flashed with `bmaptool`:

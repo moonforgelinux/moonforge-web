@@ -26,6 +26,8 @@ local_conf_header:
 machine: qemux86-64
 ```
 
+See: [meta-moonforge-qemu](https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-qemu.yml)
+
 ## Testing
 
 To use `runqemu`:

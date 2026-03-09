@@ -23,7 +23,9 @@ header:
     - kas/include/layer/meta-moonforge-rauc.yml
 ```
 
-Note that, to build images with this layer, additional layers are requires to provide the specific components to enable the target board.
+**Note**: to build images with this layer, additional layers are requires to provide the specific components to enable the target board.
+
+See: [meta-moonforge-rauc](https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-rauc.yml)
 
 ## Signing bundles
 

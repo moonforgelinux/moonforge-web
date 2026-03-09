@@ -25,7 +25,9 @@ local_conf_header:
     RAUC_FORCE_REBOOT_ON_UPDATE = "1"
 ```
 
-Note `RAUC_FORCE_REBOOT_ON_UPDATE` will force a system reboot, therefore running applications must have inhibitors in place to handle this scenario.
+**Note**: `RAUC_FORCE_REBOOT_ON_UPDATE` will force a system reboot, therefore running applications must have inhibitors in place to handle this scenario.
+
+See: [meta-moonforge-rauc-update](https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-rauc-update.yml)
 
 ## Testing
 

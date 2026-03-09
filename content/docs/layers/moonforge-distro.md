@@ -28,3 +28,5 @@ local_conf_header:
 ```
 
 Note that, because it's the base Yocto layer, it *must* be used whenever building a new OS image.
+
+See: [meta-moonforge-distro](https://github.com/moonforgelinux/meta-moonforge/blob/main/kas/include/layer/meta-moonforge-distro.yml)
